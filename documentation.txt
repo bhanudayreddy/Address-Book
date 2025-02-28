@@ -1,0 +1,75 @@
+ADDRESS BOOK.
+
+So this is a simple project where I built a digital address book.
+You know, like the ones people used to have on paper, but now it’s on the computer. 
+It’s meant to help you store and manage your contacts in a basic way. Nothing too fancy, 
+just enough to keep track of names, phone numbers, and emails.
+
+What it does:
+View Contacts: You can look at all the contacts you’ve saved. Like, just scroll through and see everything.
+Create a Contact: If you want to add someone new, you can just put in their name, phone number, and email. 
+Simple stuff.
+Search for Contacts: If you need to find someone, you can search by their name, phone number, or email. 
+Whatever info you remember.
+Edit Contacts: If a contact changes their phone number or email or whatever, you can go in and update it 
+without a hassle.
+Delete Contacts: If you want to get rid of someone’s contact info (maybe they changed numbers or you just don’t 
+need them anymore), you can delete them.
+How it works:
+Create Contact: When adding someone, you gotta enter:
+
+Name (only letters, no numbers or special characters).
+Phone Number (only numbers, no spaces or dashes or anything weird).
+Email (it needs to look like a real email, so it has to have the “@” symbol and a domain like "gmail.com").
+Search Contact: When you search, you can pick whether you want to find someone by their name, phone number,
+ or email. So if you don’t remember their name but you remember their number, it’s all good.
+
+Edit Contact: To edit, you first search for the contact, and then you can change anything—name, phone number, 
+or email. It’s pretty flexible.
+
+Delete Contact: If you want to delete someone, it’s the same as searching first. Once you find them, 
+you can delete their info from the book. Clean and simple.
+
+Saving Contacts:
+The cool part is that everything you do—creating, editing, or deleting—gets saved to a contact.txt file.
+ So, even if you close the program and come back later, all your contacts are still there. 
+ It’s like a permanent record, no worries about losing stuff.
+
+*SPECIAL MENTION*
+COLOR CODES
+There are several color codes used in the program for the better user readability..
+These color codes are defined as macros in the contact.h file and they are used throughout other files during 
+succesful operation or any error message popping
+These are used like (MACRO_NAME "our general printf statement" RESET);
+MACRO_NAME is used to specity the color and RESET is used to reset to the original color(white).
+
+
+*FILE INFORMATION*
+
+MAIN.C
+
+It is used for the main menu displaying which is used throughout the process and it has some
+switchcases to calling several functions.
+
+CONTACT.h
+
+It is used to give all the declarations to every file it includes function prototypes, header files
+, structures and macros.
+
+CONTACT.C
+
+It has all the main function definitons. The internal checking, validiations etc are done in this.
+
+VALIDIATIONS.C
+
+In this the part 1 dummy contacts and some internal validiations are defined for the better understanding 
+and modularity of each section.
+
+
+CONTACTS.txt
+
+Here the contacts are stored where they by complying to the code's operation and they stand as a permanent storage
+for the future reference of the contacts.
+
+
+
