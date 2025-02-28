@@ -1,0 +1,11 @@
+# Address Book
+
+A simple C program for managing an address book, allowing users to add, search, edit, delete, and save contacts.
+
+## Features
+- Add new contacts
+- Search contacts by name or number
+- Edit existing contacts
+- Delete contacts
+- Save contacts to a file for persistence
+
